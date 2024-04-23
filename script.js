@@ -62,6 +62,7 @@ const minus = document.getElementById('decrease');
 
 minus.onclick = decreaseSize;
 
+// subtracts the size of paint brush
 function decreaseSize() {
     size -= 1;
     document.getElementById('size').textContent = size;
@@ -70,7 +71,7 @@ function decreaseSize() {
 const add = document.getElementById('increase');
 
 add.onclick = increaseSize;
-
+// increase size of brush by 1
 function increaseSize() {
     size += 1;
     document.getElementById('size').textContent = size;
